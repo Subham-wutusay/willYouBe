@@ -38,7 +38,8 @@ body { margin:0; font-family: Arial, sans-serif; }
 <script>
 function checkPassword() {
     var pass = document.getElementById("password").value;
-    if(pass.toLowerCase() === "donuts") {
+    if(pass.toLowerCase() === "donuts" ||pass.toLowerCase() === "cheesecakes"
+        || pass.toLowerCase() === "donut" || pass.toLowerCase() === "cheesecake") {
         document.getElementById("overlay").style.display = "none";
     } else {
         alert("Incorrect password!");
@@ -56,8 +57,8 @@ function checkPassword() {
 
 <body>
     <div id="overlay">
-  <h2>Enter Password to View Page</h2>
-  <input type="password" id="password" placeholder="Password">
+  <h2>Psssst ! What's your favourite dessert ?</h2>
+  <input type="password" id="password" placeholder="_ _ _ _ _ _ _">
   <button onclick="checkPassword()">Submit</button>
 </div>
 
