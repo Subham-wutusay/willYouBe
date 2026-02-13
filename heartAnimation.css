@@ -97,22 +97,22 @@ a:focus {
 }
 
 .d1:focus {
-    background-image: url(d1.png);
+    background-image: url(d1.jpg);
     background-size: cover;
 }
 
 .d2:focus {
-    background-image: url(d2.png);
+    background-image: url(d2.jpg);
     background-size: cover;
 }
 
 .d3:focus {
-    background-image: url(d3.png);
+    background-image: url(d3.jpg);
     background-size: cover;
 }
 
 .d4:focus {
-    background-image: url(d4.png);
+    background-image: url(d4.jpg);
     background-size: contain;
     width: 600px;
     height: 270px;
@@ -120,13 +120,13 @@ a:focus {
 }
 
 .d5:focus {
-    background-image: url(d5.png);
+    background-image: url(d5.jpg);
     background-size: cover;
     transform: rotate(0deg) translateY(-10rem);
 }
 
 .d6:focus {
-    background-image: url(d6.png);
+    background-image: url(d6.jpg);
     background-size: cover;
     transform: rotate(0deg) translateX(-10rem) translateY(-10rem);
 }
